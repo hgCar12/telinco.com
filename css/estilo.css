@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url(menu.css);
+@import url(banner.css);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+    height: 50px;
+    background: #f5f4f7;
+    color: #3d24ad;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor
+{
+    width: 90%;
+    margin: auto;
+}
+
+h1
+{
+    float: left;
+}
+
+.logo
+{
+    width: 170px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 0 0 5px;
+    font-family: "Honk", system-ui;
+}
+
+header .contenedor
+{
+    display: table;
+}
+section
+{
+    width: 100%;
+    margin-bottom: 25px;
+}
